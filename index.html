@@ -6,11 +6,26 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Registration</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+
+
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+<div class="modal">
 <a href="#"><img src="imagic/Frame1.svg " alt="close.frame" > </a>
-<p>LoginRegister</p>
-<p>Enter your email and password to register.</p>
+
+
+<div class="title">
+    <a href="#" title="Login">Login</a>
+    <span>|</span>
+    <a href="#" title="Register">Register</a>
+
+</div>
+
+<p class="text">Enter your email and password to register.</p>
+
 <form name="registration" method="post" action="">
 
     <input name="username" type="text" placeholder="Username" id="username">
@@ -23,9 +38,9 @@
 
 
     <div>
-        <button type="submit">Register</button>
+        <button class="button" type="submit">Register</button>
     </div>
-    <p>Or register with</p>
+    <p class="text">Or register with</p>
 
 
     <a href="#"> <img src="imagic/google1.svg" alt="google">Continue with Google</a>
@@ -37,6 +52,7 @@
 
 
 </form>
+</div>
 
 
 </body>
