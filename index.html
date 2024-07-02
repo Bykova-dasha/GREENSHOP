@@ -14,7 +14,8 @@
 </head>
 <body>
 <div class="modal">
-<a href="#"><img src="imagic/Frame1.svg " alt="close.frame" > </a>
+
+<a class="close" href="#"><img src="imagic/Frame1.svg " alt="close.frame" > </a>
 
 
 <div class="title">
@@ -28,26 +29,46 @@
 
 <form name="registration" method="post" action="">
 
-    <input name="username" type="text" placeholder="Username" id="username">
 
-    <input name="email" type="email" placeholder="Enter your email address " id="email">
 
-    <input name="password" type="password" placeholder="Password" id="password">
+        <div class="user">
+          <input name="username" type="text" placeholder="Username" id="username">
+      </div>
 
-    <input name="password.confrim" type="password" placeholder="Confirm Password" id="password.confrim">
+    <div class="email" >
+        <input name="email" type="email" placeholder="Enter your email address " id="email">
+    </div>
+
+
+  <div class="password">
+      <input name="password" type="password" placeholder="Password" id="password">
+  </div>
+
+  <div class="password">
+      <input name="password.confrim" type="password" placeholder="Confirm Password" id="password.confrim">
+  </div>
+
+
 
 
     <div>
         <button class="button" type="submit">Register</button>
     </div>
-    <p class="text">Or register with</p>
-
-
-    <a href="#"> <img src="imagic/google1.svg" alt="google">Continue with Google</a>
+    <p class="text paragraph">Or register with</p>
 
 
 
-       <a href="#"> <img src="imagic/facebook1.svg" alt="facebook">Continue with Facebook</a>
+
+       <div class="google">
+           <a  href="#"> <img src="imagic/google1.svg" alt="google">Continue with Google</a>
+       </div>
+
+
+
+       <div  class="facebook">
+           <a href="#"> <img src="imagic/facebook1.svg" alt="facebook">Continue with Facebook</a>
+       </div>
+
 
 
 
