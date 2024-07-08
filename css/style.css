@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'cera_round_pro_demoregular';
+    src: url('../fonts.css/ceraroundprodemo-regular-webfont.eot');
+    src: url('../fonts.css/ceraroundprodemo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts.css/ceraroundprodemo-regular-webfont.woff2') format('woff2'),
+    url('../fonts.css/ceraroundprodemo-regular-webfont.woff') format('woff'),
+    url('../fonts.css/ceraroundprodemo-regular-webfont.ttf') format('truetype'),
+    url('../fonts.css/ceraroundprodemo-regular-webfont.svg#cera_round_pro_demoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
 *{
     margin: 0;
     padding: 0;
@@ -178,6 +193,11 @@ header .container{
     height: 0px;
 padding-bottom: 20px }
 
+header nav ul li a{
+    font-family: 'cera_round_pro_demoregular';
+    text-decoration: none;
+}
+
 
 header ul{
     display: flex;
@@ -224,6 +244,7 @@ header ul{
 
 }
 main .conteinerbaner{
+    padding-left: 39px;
     display: flex;
     width: 1200px;
     height: 450px;
@@ -272,6 +293,12 @@ main .conteinerbaner{
     text-decoration-line: none;
 }
 
+.imgcontainer{
+    width: 507px;
+    height: 450px;
+
+
+}
 
 
 
