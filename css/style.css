@@ -1,11 +1,113 @@
 @font-face {
+    font-family: 'cera_round_pro_demoblack';
+    src: url('../fonts/ceraroundprodemo-black-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-black-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-black-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-black-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-black-webfont.svg#cera_round_pro_demoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cera_round_pro_demoblack';
+    src: url('../fonts/ceraroundprodemo-black-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-black-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-black-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-black-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-black-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-black-webfont.svg#cera_round_pro_demoblack') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cera_round_pro_demobold';
+    src: url('../fonts/ceraroundprodemo-bold-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-bold-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-bold-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-bold-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-bold-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-bold-webfont.svg#cera_round_pro_demobold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cera_round_pro_demolight';
+    src: url('../fonts/ceraroundprodemo-light-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-light-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-light-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-light-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-light-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-light-webfont.svg#cera_round_pro_demolight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'cera_round_pro_demomedium';
+    src: url('../fonts/ceraroundprodemo-medium-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-medium-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-medium-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-medium-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-medium-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-medium-webfont.svg#cera_round_pro_demomedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: 'cera_round_pro_demothin';
+    src: url('../fonts/ceraroundprodemo-thin-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-thin-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-thin-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-thin-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-thin-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-thin-webfont.svg#cera_round_pro_demothin') format('svg');
+    font-weight: normal;
+    font-style: normal;}
+
+
+
+
+
+
+
+
+    @font-face {
     font-family: 'cera_round_pro_demoregular';
-    src: url('../fonts.css/ceraroundprodemo-regular-webfont.eot');
-    src: url('../fonts.css/ceraroundprodemo-regular-webfont.eot?#iefix') format('embedded-opentype'),
-    url('../fonts.css/ceraroundprodemo-regular-webfont.woff2') format('woff2'),
-    url('../fonts.css/ceraroundprodemo-regular-webfont.woff') format('woff'),
-    url('../fonts.css/ceraroundprodemo-regular-webfont.ttf') format('truetype'),
-    url('../fonts.css/ceraroundprodemo-regular-webfont.svg#cera_round_pro_demoregular') format('svg');
+    src: url('../fonts/ceraroundprodemo-regular-webfont.eot');
+    src: url('../fonts/ceraroundprodemo-regular-webfont.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/ceraroundprodemo-regular-webfont.woff2') format('woff2'),
+    url('../fonts/ceraroundprodemo-regular-webfont.woff') format('woff'),
+    url('../fonts/ceraroundprodemo-regular-webfont.ttf') format('truetype'),
+    url('../fonts/ceraroundprodemo-regular-webfont.svg#cera_round_pro_demoregular') format('svg');
     font-weight: normal;
     font-style: normal;
 
@@ -129,15 +231,12 @@
     align-items: center;
     border: 1px solid #eaeaea;
     border-radius: 5px;
-    width: 300px;
-    height: 40px;
     margin-bottom: 15px;
     margin-right: 10px;
 
 }
 .facebook{
     width: 300px;
-    height: 24px;
     font-weight: 500;
     font-size: 13px;
     line-height: 123%;
@@ -148,8 +247,6 @@
     align-items: center;
     border: 1px solid #eaeaea;
     border-radius: 5px;
-    width: 300px;
-    height: 40px;
     margin-right: 10px;
 
 
@@ -218,7 +315,7 @@ header ul{
 }
 
 
-.block:hover {
+.block,a:hover {
     font-weight: 700
 
 }
@@ -229,14 +326,11 @@ header ul{
 
 .login_btn{
     border-radius: 6px;
-
     height: 35px;
     background: #46a358;
     padding: 7px 17px;
     display: inline-flex;
-    justify-content: center;
     align-items: center;
-
     font-weight: 500;
     font-size: 16px;
     color: #fff;
@@ -244,11 +338,12 @@ header ul{
 
 }
 main .conteinerbaner{
+    font-family: 'cera_round_pro_demoblack';
     padding-left: 39px;
     display: flex;
    max-width:  1200px;
   margin: auto;
-    background: linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
+    background:linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
 }
 .conteinerbaner h2{
 padding-top:  68px;
@@ -266,7 +361,7 @@ padding-top:  68px;
     line-height: 100%;
     text-transform: uppercase;
     color: #3d3d3d;
-    margin-bottom: 5px;
+    margin: 5px 0;
 
 }
 .conteinerbaner h1 span{
@@ -282,8 +377,6 @@ padding-top:  68px;
 }
 .containerbtn{
     border-radius: 6px;
-    width: 140px;
-    height: 40px;
     font-weight: 700;
     font-size: 16px;
     line-height: 125%;
@@ -291,14 +384,57 @@ padding-top:  68px;
     color: #fff;
     background: #46a358;
     text-decoration-line: none;
+    display:inline-flex;
+    align-items: center;
+    margin-top: 45px;
 }
 
 .imgcontainer{
     width: 507px;
-    height: 450px;
+    height: 450px;}
 
+
+
+.container_product{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 171px;
+ padding-left:  135px;
+}
+.list_menu{
+    font-family: 'cera_round_pro_demoregular';
+    height: 1244px;
+    max-width:310px ;
+    background: #fbfbfb;
+    font-size: 15px;
+    line-height: 267%;
+    font-weight: 400;
+    color: #3d3d3d;
+    padding: 14px 18px 377px 24px;
+}
+
+.Categories{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
 
 }
+.House_Plants{
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 267%;
+    color: #46a358;
+
+}
+
+
+.product_menu{
+    max-width:840px ;
+}
+
+
+
 
 
 
