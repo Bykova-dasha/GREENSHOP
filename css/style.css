@@ -276,7 +276,7 @@
 }
 
 header{
-    padding-top:31px;
+    padding-top:25px;
 }
 header .container{
     display: flex;
@@ -287,7 +287,7 @@ header .container{
 header .container{
    border-bottom: 0.30px solid rgba(70, 163, 88, 0.5);
     max-width: 1200px;
-padding-bottom: 20px }
+    padding-bottom: 11px }
 
 header nav ul li a{
     font-family: 'cera_round_pro_demoregular';
@@ -328,7 +328,7 @@ header ul{
     border-radius: 6px;
     height: 35px;
     background: #46a358;
-    padding: 7px 17px;
+    padding: 18px 25px;
     display: inline-flex;
     align-items: center;
     font-weight: 500;
@@ -338,15 +338,22 @@ header ul{
 
 }
 main .conteinerbaner{
+    width: 100%;
     font-family: 'cera_round_pro_demoblack';
     padding-left: 39px;
     display: flex;
    max-width:  1200px;
-  margin: auto;
+    margin: auto;
     background:linear-gradient(135deg, rgba(245, 245, 245, 0.5) 0%, rgba(245, 245, 245, 0.5) 100%);
 }
+.conteinerbaner p{
+    font-family: 'cera_round_pro_demoregular';
+}
+
+.texts{padding-top:  68px;
+
+}
 .conteinerbaner h2{
-padding-top:  68px;
     font-weight: 500;
     font-size: 14px;
     line-height: 114%;
@@ -386,12 +393,13 @@ padding-top:  68px;
     text-decoration-line: none;
     display:inline-flex;
     align-items: center;
-    margin-top: 45px;
 }
 
 .imgcontainer{
     width: 507px;
-    height: 450px;}
+    height: 450px;
+margin-left: -52px}
+
 
 
 
@@ -399,44 +407,60 @@ padding-top:  68px;
     max-width: 1210px;
     display: flex;
     justify-content: space-between;
-    padding-top: 171px;
-   padding-left:  135px;
-    padding-right: 105px;
+    padding-top: 26px;
+    margin: auto;
+    width: 100%;
 }
 
 .list_menu{
     font-family: 'cera_round_pro_demoregular';
-    height: 1244px;
     max-width:310px ;
     background: #fbfbfb;
-    font-size: 15px;
-    line-height: 267%;
-    font-weight: 400;
-    color: #3d3d3d;
-    padding: 14px 18px 377px 24px;
+
 }
 
-.Categories{
+
+.list_menu h2{
+    font-family: 'cera_round_pro_demobold';
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
     color: #3d3d3d;
+    padding-top: 14px;
+   padding-left: 18px;
 
 }
 .House_Plants{
+    font-size: 15px;
+    line-height: 267%;
+    font-weight: 400;
+    color: #3d3d3d;
+    padding: 7px 18px 377px 24px;
+}
+.House_Plants ul{
+    margin-bottom: 31px;
+}
+.House_Plants li a{
+    font-weight: 400;
+    color: #3d3d3d;
+
+}
+.House_Plants li a:hover{
     font-weight: 700;
     font-size: 15px;
     line-height: 267%;
     color: #46a358;
 
 }
+.list_menu img{
+    margin-left: -27px
+}
 
 
 .product_menu{
     max-width:840px ;
-    height: 1224px;
-    display: flex;
-    justify-content: space-between;
+    padding-left: 50px;
+
 
 
 
@@ -445,13 +469,17 @@ padding-top:  68px;
 .filters{
     display: flex;
     justify-content: space-between;
-    max-width: 838px;
-    height: 23px;
+    align-items: center;
+    max-width: 100%;
+    margin-bottom: 31px;
+    list-style: none;
+    text-decoration: none;
 
 }
 
 
-.filters li a{
+.filters ul li a{
+
 
     font-weight: 400;
     font-size: 15px;
@@ -459,6 +487,7 @@ padding-top:  68px;
     color: #3d3d3d;
     list-style: none;
     text-decoration: none;
+
 
 }
 .filters li a:hover{
@@ -474,6 +503,32 @@ padding-top:  68px;
     line-height: 107%;
     color: #3d3d3d;
 }
+
+.item_list{
+  max-width:  840px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 33px;
+}
+.item1{
+   max-width:  258px;
+}
+.item1 img{
+    background: #fbfbfb;
+.item1 h3{
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: #3d3d3d;}
+}
+.item1 p{
+    font-family: 'cera_round_pro_demobold';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #46a358;}
 
 
 
