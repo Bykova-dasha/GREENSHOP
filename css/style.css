@@ -396,11 +396,14 @@ padding-top:  68px;
 
 
 .container_product{
+    max-width: 1210px;
     display: flex;
     justify-content: space-between;
     padding-top: 171px;
- padding-left:  135px;
+   padding-left:  135px;
+    padding-right: 105px;
 }
+
 .list_menu{
     font-family: 'cera_round_pro_demoregular';
     height: 1244px;
@@ -431,8 +434,46 @@ padding-top:  68px;
 
 .product_menu{
     max-width:840px ;
+    height: 1224px;
+    display: flex;
+    justify-content: space-between;
+
+
+
 }
 
+.filters{
+    display: flex;
+    justify-content: space-between;
+    max-width: 838px;
+    height: 23px;
+
+}
+
+
+.filters li a{
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+    list-style: none;
+    text-decoration: none;
+
+}
+.filters li a:hover{
+    font-weight: 700;
+    color: #46a358;
+
+}
+.filters p{
+
+
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 107%;
+    color: #3d3d3d;
+}
 
 
 
