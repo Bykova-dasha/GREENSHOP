@@ -409,7 +409,6 @@ margin-left: -52px}
     justify-content: space-between;
     padding-top: 26px;
     margin: auto;
-    width: 100%;
 }
 
 .list_menu{
@@ -436,6 +435,7 @@ margin-left: -52px}
     font-weight: 400;
     color: #3d3d3d;
     padding: 7px 18px 377px 24px;
+    text-decoration: none;
 }
 .House_Plants ul{
     margin-bottom: 31px;
@@ -443,6 +443,7 @@ margin-left: -52px}
 .House_Plants li a{
     font-weight: 400;
     color: #3d3d3d;
+    text-decoration: none;
 
 }
 .House_Plants li a:hover{
@@ -469,16 +470,20 @@ margin-left: -52px}
 .filters{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    max-width: 100%;
+  width: 100%;
     margin-bottom: 31px;
     list-style: none;
     text-decoration: none;
 
 }
+.filters ul{
+    display: flex;
+    gap: 37px;
+}
 
 
-.filters ul li a{
+
+.filters  ul li a{
 
 
     font-weight: 400;
@@ -505,30 +510,72 @@ margin-left: -52px}
 }
 
 .item_list{
-  max-width:  840px;
+    font-family: 'cera_round_pro_demoregular';
+    width: 840px;
+    height: 1190px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 33px;
+    margin: 0 auto;
+    padding-bottom: 90px;
 }
-.item1{
-   max-width:  258px;
+.item_list article{
+    max-width: 258px;
 }
-.item1 img{
-    background: #fbfbfb;
-.item1 h3{
-    font-family: 'cera_round_pro_demoregular';
+
+
+.item_list img{
+    width: 100%;
+
+    .item_list article h3{
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
-    color: #3d3d3d;}
+    color: #3d3d3d;
+   }
 }
-.item1 p{
+.item_list article p{
     font-family: 'cera_round_pro_demobold';
     font-weight: 700;
     font-size: 18px;
     line-height: 89%;
-    color: #46a358;}
+    color: #46a358;
+    }
+
+.pagination {
+    max-width: 215px;
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 625px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    padding: 9px 13px 10px 12px;
+
+
+}
+
+.pagination a{
+    text-decoration: none;
+    padding: 9px 13px 10px 12px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 89%;
+    color: #3d3d3d;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    width: 35px;
+    height: 35px;
+}
+.pagination a.active{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 89%;
+    color: #fff;
+    background: #46a358;
+}
 
 
 
