@@ -272,7 +272,7 @@
 .container{
     max-width: 1200px;
     margin: auto;
-    height: 53px;
+
 }
 
 header{
@@ -467,6 +467,7 @@ margin-left: -52px}
 
 }
 
+
 .filters{
     display: flex;
     justify-content: space-between;
@@ -520,20 +521,25 @@ margin-left: -52px}
     margin: 0 auto;
     padding-bottom: 90px;
 }
+.item_list article:hover{
+    border-top:solid 1px #46A358 ;
+}
 .item_list article{
     max-width: 258px;
+    border-top:solid 1px transparent;
 }
 
 
 .item_list img{
-    width: 100%;
+   width: 250px;
+    height: 250px;
 
-    .item_list article h3{
+}
+.item_list article h3{
     font-weight: 400;
     font-size: 16px;
     line-height: 100%;
     color: #3d3d3d;
-   }
 }
 .item_list article p{
     font-family: 'cera_round_pro_demobold';
@@ -541,25 +547,30 @@ margin-left: -52px}
     font-size: 18px;
     line-height: 89%;
     color: #46a358;
+
     }
 
 .pagination {
-    max-width: 215px;
     display: flex;
     justify-content: flex-end;
-    margin-left: 625px;
-    font-weight: 300;
-    font-size: 18px;
-    line-height: 89%;
-    color: #3d3d3d;
     padding: 9px 13px 10px 12px;
-
-
 }
 
-.pagination a{
+.pagination ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.pagination ul li {
+    display: inline;
+}
+
+.pagination ul li a  {
     text-decoration: none;
-    padding: 9px 13px 10px 12px;
+    padding: 9px 13px;
     font-weight: 300;
     font-size: 18px;
     line-height: 89%;
@@ -568,13 +579,212 @@ margin-left: -52px}
     border-radius: 4px;
     width: 35px;
     height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.pagination a.active{
+.pagination ul li a svg{
+    width: 35px;
+    height: 35px;
+
+}
+
+.pagination ul li a.active {
     font-weight: 700;
-    font-size: 18px;
-    line-height: 89%;
     color: #fff;
     background: #46a358;
+}
+
+.pagination ul li a:hover {
+    font-weight: 700;
+    color: #fff;
+    background: #46a358;
+}
+.pagination ul li a:hover svg path{
+    font-weight: 700;
+    stroke: #fff;
+    background: #46a358;
+}
+
+
+.summer_colection{
+    margin-bottom: 138px;
+    padding-top: 69px;
+
+}
+.summer_colection .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.summer_colection .container img{
+    width: 287px;
+    height: 292px;
+    padding-bottom: 10px;
+    background:url("image/image14.png");
+    mix-blend-mode: multiply;
+
+}
+.summer_colection .image15 img{
+    width: 287px;
+    height: 292px;
+    padding-bottom: 8px;
+    background:url("image/image15.png");
+    mix-blend-mode: multiply;
+
+}
+
+.summer_colection .container article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   max-width:  586px;
+    height: 250px;
+    background: #fbfbfb;
+
+    text-align: right;
+}
+.summer_colection h3{
+    font-family: 'cera_round_pro_demoblack';
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 133%;
+    text-transform: uppercase;
+    text-align: right;
+    color: #3d3d3d;
+    padding-right: 30px;
+    padding-top: 37px;
+    padding-bottom: 9px;
+}
+.summer_colection p{
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: right;
+    color: #727272;
+    padding-bottom: 25px;
+    padding-right: 30px;
+}
+
+.summer_colection a{
+    padding: 11px 28px 9px 27px;
+   margin-right: 30px;
+    text-decoration: none;
+    background: #46a358;
+    border-radius: 6px;
+    width: 140px;
+    height: 40px;
+    font-family: 'cera_round_pro_demomedium';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 143%;
+    color: #fff;
+}
+
+
+.blog{
+    text-align: center;
+
+}
+.blog_colection{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+    max-width: 1202px;
+    margin: auto;
+    gap: 44px;
+
+
+}
+.blog h2{
+    font-family: 'cera_round_pro_demobold';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 53%;
+    text-align: center;
+    color: #3d3d3d;
+    padding-bottom: 15px;
+}
+.blog p{
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 171%;
+    text-align: center;
+    color: #727272;
+    padding-bottom: 35px;
+
+}
+.blog_colection article img{
+    width: 268px;
+    height: 195px;
+    padding-bottom: 9px;
+}
+.blog_colection  article p{
+    text-align:left;
+    font-family: 'cera_round_pro_demomedium';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+    padding-bottom: 4px;
+  padding-left: 15px;
+
+
+}
+.blog_colection article h3{
+    font-family: 'cera_round_pro_demobold';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 130%;
+    color: #3d3d3d;
+    padding-bottom: 4px;
+    padding-left: 15px;
+
+
+}
+.blog_colection article p:last-of-type{
+    font-family: 'cera_round_pro_demoregular';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 157%;
+    color: #727272;
+    padding-bottom: 9px;
+    padding-left: 15px;
+
+}
+.blog_colection  article a{
+    text-decoration: none;
+    padding-right: 3px;
+    font-family: 'cera_round_pro_demomedium';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #3d3d3d;
+    padding-bottom: 12px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 15px;
+
+
+
+}
+.blog_colection article  a:hover{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 114%;
+    color: #46a358;
+}
+.blog_colection article a path:hover{
+    fill:#46a358;
+}
+.blog_colection article{
+
+    max-width: 268px;
+    background: #fbfbfb;
+
 }
 
 
