@@ -1151,7 +1151,7 @@ header .container .block .dropdown_menu2 a{
 
     }
     .contact .icon2:before{
-        background-image: url("../image/icon2.svg");
+        background-image: url("../image/Icon2.svg");
         display: inline-flex;
         width: 18px;
         height: 18px;
@@ -1168,7 +1168,7 @@ header .container .block .dropdown_menu2 a{
     }
 
     .contact .icon3:before{
-        background-image: url("../image/icon3.svg");
+        background-image: url("../image/Icon3.svg");
         display: inline-flex;
         width: 20px;
         height: 20px;
