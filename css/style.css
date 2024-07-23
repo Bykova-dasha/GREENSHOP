@@ -386,12 +386,12 @@ header .container .block .dropdown_menu2 a{
         text-decoration: none;
     }
 
-    .block li:hover:after{
+    .block .link:hover:after{
         width: 100%;
     }
 
 
-    .block li:after{
+    .block .link:after{
         content: "";
         display: block;
         width: 0;
@@ -401,6 +401,20 @@ header .container .block .dropdown_menu2 a{
         bottom: -27px;
         transition: 0.4s;
     }
+.block .dropdown:after{
+    content: "";
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #46A358;
+    position: relative;
+    bottom: -27px;
+    transition: 0.4s;
+}
+.block .dropdown:hover:after{
+    width: 100%;
+}
+
 
 
 
