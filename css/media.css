@@ -1,0 +1,47 @@
+ @media screen and (max-width: 769px){
+    container{
+        padding: 0 15px;
+    }
+     main .conteinerbaner, .product_menu, .blog {
+         display: block;
+     margin: auto}
+     .list_menu{
+         align-items: center;
+     }
+     .container_product .pagination{
+         display: none;
+     }
+     .product_menu{
+         overflow: hidden;
+     }
+     .product_menu .filters{
+         display: none;
+     }
+
+     .item_list{
+         display: block;
+
+     }
+     .summer_colection .container{
+         display: block;
+         margin: auto;
+         gap: 10px;
+     }
+     .Join .container{
+         display: block;
+     }
+     .contact .container{
+         display: block;
+     }
+     footer .container{
+         display: block;
+     }
+ }
+
+ @media screen and (max-width: 1024px){
+     .container_product{
+         display: block;
+     }
+ }
+
+
